@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ScrabbleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-12-19T00:54:49" hostname="Brians-MacBook-Pro.local" time="0.001">
+<testsuite name="ScrabbleTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2016-12-19T04:59:43" hostname="Brians-MacBook-Pro.local" time="0.003">
   <properties/>
-  <testcase name="runScrabble_returnNumber_Integer" classname="ScrabbleTest" time="0.001"/>
+  <testcase name="getScore_returnNumber_Integer" classname="ScrabbleTest" time="0.001"/>
+  <testcase name="wordScore_returnScoreMultiLetters_Integer" classname="ScrabbleTest" time="0.0"/>
+  <testcase name="getScore_return3forB_Integer" classname="ScrabbleTest" time="0.001"/>
+  <testcase name="getScore_return5forK_Integer" classname="ScrabbleTest" time="0.0"/>
+  <testcase name="wordScore_return0ForNonLetter_Integer" classname="ScrabbleTest" time="0.0"/>
+  <testcase name="getScore_return2forDCaseInsensitive_Integer" classname="ScrabbleTest" time="0.0"/>
+  <testcase name="getScore_return2forD_Integer" classname="ScrabbleTest" time="0.0"/>
+  <testcase name="getScore_return4forF_Integer" classname="ScrabbleTest" time="0.0"/>
+  <testcase name="getScore_return10forQ_Integer" classname="ScrabbleTest" time="0.0"/>
+  <testcase name="getScore_return8forJ_Integer" classname="ScrabbleTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
